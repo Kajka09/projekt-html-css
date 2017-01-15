@@ -10,6 +10,9 @@ body{
 #menu{
   background-color: black;
   color: white;
+  z-index:1;
+  position: fixed;
+  width: 100%;
 }
 
 #menu ul{
@@ -31,6 +34,10 @@ body{
 
 #header{
   position:relative;
+  background-image: url(../img/header-background.jpg);
+  height:100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 #header img{
