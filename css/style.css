@@ -1,0 +1,78 @@
+
+/*General styles*/
+body{
+  margin:0;
+  font-family:"Lato",sans-serif;
+}
+
+/*Nav menu styles*/
+
+#menu{
+  background-color: black;
+  color: white;
+}
+
+#menu ul{
+  margin:0;
+  text-align: center;
+}
+
+#menu ul .menu-item{
+  display:inline-block;
+  padding: 20px;
+}
+
+#menu ul .menu-item a{
+  color: white;
+  text-decoration: none;
+}
+
+/*Header*/
+
+#header{
+  position:relative;
+}
+
+#header img{
+  width: 100%;
+}
+
+#main-header-text{
+   color:white;
+   top: 50%;
+   text-transform: uppercase;
+  position:absolute;
+  width: 500px;
+  left: 0;
+  right:0;
+  margin:auto;
+  text-align: center;
+}
+
+/*About style*/
+
+#about{
+  background-color: white;
+  color:black;
+  text-align: center;
+}
+
+#about-header{
+  font: bold;
+}
+
+/*Kontakt style*/
+
+#contact{
+  background-color:black;
+  color:white;
+  text-align: center;
+  text-decoration: none;
+}
+#contact a {
+  color:white;
+}
+
+#contact-header{
+  font: bold;
+}
